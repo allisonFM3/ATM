@@ -260,7 +260,7 @@ public class ATM {
 
         //get the amount to deposit
         do{
-            System.out.printf("Enter the amount to deposit (max $%.02f): $", acctBal);
+            System.out.printf("Enter the amount to deposit: $", acctBal);
             amount = sc.nextDouble();
             if(amount < 0){
                 System.out.println("Amount must be greater than zero.");
